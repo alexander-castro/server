@@ -1,1 +1,6 @@
-# server
+# Server
+
+Stack
+- Nodejs
+- Npm
+- Express
