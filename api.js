@@ -5,8 +5,9 @@ const port = 3000
 app.get('/parks/:city', (req, res) => {
   if(req.params.city === 'tunja'){
     res.send('Parque pinzon, parque recreacional') 
+  }else{
+    res.send('No hay registros')
   }
-  res.send('No hay registros')
 })
 
 { city: 'tunja' }
